@@ -3,11 +3,11 @@ buildscript {
 		mavenCentral()
 	}
 	dependencies {
-		classpath 'com.android.tools.build:gradle:0.2'
+		classpath 'com.android.tools.build:gradle:0.4'
 	}
 }
 
-apply plugin: 'android'
+apply plugin: 'android-library'
 
 android {
 	target='android-16'
