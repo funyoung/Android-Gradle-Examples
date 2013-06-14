@@ -10,7 +10,9 @@ buildscript {
 apply plugin: 'android-library'
 
 android {
-	target='android-16'
+    buildToolsVersion "17.0"
+    compileSdkVersion 17
+	target='android-17'
 	sourceSets {
 		main {
 			manifest {
